@@ -12,7 +12,7 @@ function Card({ title, subTitle, image }) {
         <AppText style={styles.title} numberOfLines={1}>
           {title}
         </AppText>
-        <AppText style={styles.subTitle} numberOfLines={2}>
+        <AppText style={styles.subTitle} numberOfLines={}>
           {subTitle}
         </AppText>
       </View>
